@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UEProject\\AncientGame\\Source\\AncientGame\\AncientGame.Build.cs",
+		"D:\\UEProject\\AncientGame\\Source\\AncientGame.Target.cs",
+		"D:\\UEProject\\AncientGame\\Source\\AncientGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

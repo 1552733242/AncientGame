@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AncientGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AncientGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AncientGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AncientGame">
+      <UniqueIdentifier>{1F9624C7-BA2D-318E-A765-C99263E21FB0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AncientGame\AncientGame.Build.cs">
+      <Filter>Source\AncientGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AncientGame\AncientGame.cpp">
+      <Filter>Source\AncientGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AncientGame.h">
+      <Filter>Source\AncientGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\AbilitySystem">
+      <UniqueIdentifier>{5E4EEB1A-8DD0-31E7-9E2B-AA0EBC70DB35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AncientGame\AbilitySystem\Abilities">
+      <UniqueIdentifier>{DE0B1BAF-5A4A-3919-B3A7-EA32F0C03D69}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QBaseGameplayAbility.cpp">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QBaseGameplayAbility.h">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Aim.cpp">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Aim.h">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Crounch.cpp">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Crounch.h">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Jump.cpp">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Jump.h">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Sprint.cpp">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AbilitySystem\Abilities\QGA_Sprint.h">
+      <Filter>Source\AncientGame\AbilitySystem\Abilities</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\AbilitySystem\Attribute">
+      <UniqueIdentifier>{D5CD89C4-2895-31F0-909F-E1B704746F55}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\AbilitySystem\Attribute\QAttributeSetBase.cpp">
+      <Filter>Source\AncientGame\AbilitySystem\Attribute</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\AbilitySystem\Attribute\QAttributeSetBase.h">
+      <Filter>Source\AncientGame\AbilitySystem\Attribute</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Cameras">
+      <UniqueIdentifier>{A94919D3-E8E8-3F98-A3B2-63AEAB2BA903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AncientGame\Cameras\AnimInstance">
+      <UniqueIdentifier>{B5E63764-EE9A-36CF-866C-BE52B391B039}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Cameras\AnimInstance\QPlayerCameraAnimInstance.cpp">
+      <Filter>Source\AncientGame\Cameras\AnimInstance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Cameras\AnimInstance\QPlayerCameraAnimInstance.h">
+      <Filter>Source\AncientGame\Cameras\AnimInstance</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Cameras\Manager">
+      <UniqueIdentifier>{C7C03008-454F-3918-8575-0502BC86F8BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Cameras\Manager\QPlayerCameraManager.cpp">
+      <Filter>Source\AncientGame\Cameras\Manager</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Cameras\Manager\QPlayerCameraManager.h">
+      <Filter>Source\AncientGame\Cameras\Manager</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Characters">
+      <UniqueIdentifier>{47CA8882-1E72-3B9A-BC33-EA6F052B799F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Characters\QBaseCharacter.cpp">
+      <Filter>Source\AncientGame\Characters</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Characters\QBaseCharacter.h">
+      <Filter>Source\AncientGame\Characters</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Characters\AnimationInstance">
+      <UniqueIdentifier>{CE442C20-08DD-3FFA-9123-DEE6758870C7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Characters\AnimationInstance\QBaseAnimInstance.cpp">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Characters\AnimationInstance\QBaseAnimInstance.h">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\Characters\AnimationInstance\QBaseLocomotionAnimInstance.cpp">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Characters\AnimationInstance\QBaseLocomotionAnimInstance.h">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\Characters\AnimationInstance\QGroundLocomotionAnimInstance.cpp">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Characters\AnimationInstance\QGroundLocomotionAnimInstance.h">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\Characters\AnimationInstance\QMainAnimInstance.cpp">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Characters\AnimationInstance\QMainAnimInstance.h">
+      <Filter>Source\AncientGame\Characters\AnimationInstance</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Components">
+      <UniqueIdentifier>{48F1D060-BB06-3FA5-BAAC-785BA8EE5680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AncientGame\Components\Ability">
+      <UniqueIdentifier>{4D548165-65A0-3B44-AB91-396AFA7EE5EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Ability\QBaseAbilitySystemComponent.cpp">
+      <Filter>Source\AncientGame\Components\Ability</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Ability\QBaseAbilitySystemComponent.h">
+      <Filter>Source\AncientGame\Components\Ability</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Components\Animation">
+      <UniqueIdentifier>{EA3EEAFB-DE8E-3B3B-80F7-7E65414595AD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Animation\QBaseAnimationSystemComponent.cpp">
+      <Filter>Source\AncientGame\Components\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Animation\QBaseAnimationSystemComponent.h">
+      <Filter>Source\AncientGame\Components\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Animation\QMainAnimationSystemComponent.cpp">
+      <Filter>Source\AncientGame\Components\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Animation\QMainAnimationSystemComponent.h">
+      <Filter>Source\AncientGame\Components\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Components\Character">
+      <UniqueIdentifier>{B8F794AC-D960-338B-8B0C-3C544BD741C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Character\QCharacterStateComponent.cpp">
+      <Filter>Source\AncientGame\Components\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Character\QCharacterStateComponent.h">
+      <Filter>Source\AncientGame\Components\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Components\Input">
+      <UniqueIdentifier>{E2E8C540-96E1-348C-B0FB-B2734E0F4901}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Input\QBaseInputSystemComponent.cpp">
+      <Filter>Source\AncientGame\Components\Input</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Input\QBaseInputSystemComponent.h">
+      <Filter>Source\AncientGame\Components\Input</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Components\Inventory">
+      <UniqueIdentifier>{97478069-E8FA-3FFB-BD69-2FF8B90DEEEC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Inventory\QInventorySystemComponent.cpp">
+      <Filter>Source\AncientGame\Components\Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Inventory\QInventorySystemComponent.h">
+      <Filter>Source\AncientGame\Components\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Components\Movement">
+      <UniqueIdentifier>{481B1C08-ADAC-39AE-B270-A099E3B2C63B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Components\Movement\QBaseCharacterMovementComponent.cpp">
+      <Filter>Source\AncientGame\Components\Movement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Components\Movement\QBaseCharacterMovementComponent.h">
+      <Filter>Source\AncientGame\Components\Movement</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Controllers">
+      <UniqueIdentifier>{97FFD5E2-4BE7-3D94-A6DD-00DC581B1FC6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Controllers\QBasePlayerController.cpp">
+      <Filter>Source\AncientGame\Controllers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Controllers\QBasePlayerController.h">
+      <Filter>Source\AncientGame\Controllers</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\DataAssets">
+      <UniqueIdentifier>{0BDF621A-140B-3D37-B625-67D9867EF060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\AncientGame\DataAssets\AbilitySystem">
+      <UniqueIdentifier>{E76D1091-91FB-3E28-89D0-01662C130F5E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\DataAssets\AbilitySystem\QAbilitySystemDataAsset.cpp">
+      <Filter>Source\AncientGame\DataAssets\AbilitySystem</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\DataAssets\AbilitySystem\QAbilitySystemDataAsset.h">
+      <Filter>Source\AncientGame\DataAssets\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\DataAssets\Character">
+      <UniqueIdentifier>{72605318-9365-3805-929C-24C7A0C275A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\DataAssets\Character\QCharacterAbilityDataAsset.cpp">
+      <Filter>Source\AncientGame\DataAssets\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\DataAssets\Character\QCharacterAbilityDataAsset.h">
+      <Filter>Source\AncientGame\DataAssets\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\DataAssets\Character\QCharacterAnimationDataAsset.cpp">
+      <Filter>Source\AncientGame\DataAssets\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\DataAssets\Character\QCharacterAnimationDataAsset.h">
+      <Filter>Source\AncientGame\DataAssets\Character</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\DataAssets\Character\QCharacterDataAsset.cpp">
+      <Filter>Source\AncientGame\DataAssets\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\DataAssets\Character\QCharacterDataAsset.h">
+      <Filter>Source\AncientGame\DataAssets\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\DataAssets\Item">
+      <UniqueIdentifier>{CA842219-DF3A-3F65-9B19-8E178AD84E06}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\DataAssets\Item\QItemDataAsset.cpp">
+      <Filter>Source\AncientGame\DataAssets\Item</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\DataAssets\Item\QItemDataAsset.h">
+      <Filter>Source\AncientGame\DataAssets\Item</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\Items">
+      <UniqueIdentifier>{22A77BE3-96A2-3DF8-AD8C-9C2B5E70CEEB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\Items\QBaseItem.cpp">
+      <Filter>Source\AncientGame\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Items\QBaseItem.h">
+      <Filter>Source\AncientGame\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AncientGame\Items\QTrophy.cpp">
+      <Filter>Source\AncientGame\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\Items\QTrophy.h">
+      <Filter>Source\AncientGame\Items</Filter>
+    </ClInclude>
+    <Filter Include="Source\AncientGame\UI">
+      <UniqueIdentifier>{BEB61905-2B9E-3034-9166-4B0B7EEB8E11}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AncientGame\UI\QItemWidget.cpp">
+      <Filter>Source\AncientGame\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AncientGame\UI\QItemWidget.h">
+      <Filter>Source\AncientGame\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
